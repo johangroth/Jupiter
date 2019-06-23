@@ -15,9 +15,19 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2275 1725 1900 2375
+S 4250 3550 1900 2375
 U 5D10A452
 F0 "Power Glue and Expansion" 50
 F1 "power_glue_expansion.sch" 50
+F2 "~KS" O L 4250 4425 50 
+F3 "~IRQ" B L 4250 4150 50 
+F4 "~NMI" B L 4250 4650 50 
+F5 "BE" O L 4250 4925 50 
+F6 "RDY" O L 4250 3925 50 
+F7 "~ABT" O L 4250 4800 50 
+F8 "~PWR" O L 4250 3725 50 
+F9 "~RES" O L 4250 5175 50 
+F10 "RES" O L 4250 5400 50 
+F11 "CLK" O L 4250 5050 50 
 $EndSheet
 $EndSCHEMATC

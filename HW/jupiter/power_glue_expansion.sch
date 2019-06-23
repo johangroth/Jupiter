@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
-Title "Glue, control logic and expansion"
+Title "Glue and power supply"
 Date "2019-06-23"
 Rev "0.1"
 Comp "Linux Grotto"
@@ -711,4 +711,70 @@ Wire Notes Line
 	5825 6250 5825 4500
 Wire Notes Line
 	6450 3850 6450 1775
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D2A33B9
+P 975 4350
+F 0 "H?" H 1075 4396 50  0000 L CNN
+F 1 "MountingHole" H 1075 4305 50  0000 L CNN
+F 2 "" H 975 4350 50  0001 C CNN
+F 3 "~" H 975 4350 50  0001 C CNN
+	1    975  4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D2A481F
+P 975 4625
+F 0 "H?" H 1075 4671 50  0000 L CNN
+F 1 "MountingHole" H 1075 4580 50  0000 L CNN
+F 2 "" H 975 4625 50  0001 C CNN
+F 3 "~" H 975 4625 50  0001 C CNN
+	1    975  4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D2A4D03
+P 975 5000
+F 0 "H?" H 1075 5046 50  0000 L CNN
+F 1 "MountingHole" H 1075 4955 50  0000 L CNN
+F 2 "" H 975 5000 50  0001 C CNN
+F 3 "~" H 975 5000 50  0001 C CNN
+	1    975  5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D2A515B
+P 975 5350
+F 0 "H?" H 1075 5396 50  0000 L CNN
+F 1 "MountingHole" H 1075 5305 50  0000 L CNN
+F 2 "" H 975 5350 50  0001 C CNN
+F 3 "~" H 975 5350 50  0001 C CNN
+	1    975  5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D2A562D
+P 975 5725
+F 0 "H?" H 1075 5771 50  0000 L CNN
+F 1 "MountingHole" H 1075 5680 50  0000 L CNN
+F 2 "" H 975 5725 50  0001 C CNN
+F 3 "~" H 975 5725 50  0001 C CNN
+	1    975  5725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H?
+U 1 1 5D2A5A6E
+P 975 6125
+F 0 "H?" H 1075 6171 50  0000 L CNN
+F 1 "MountingHole" H 1075 6080 50  0000 L CNN
+F 2 "" H 975 6125 50  0001 C CNN
+F 3 "~" H 975 6125 50  0001 C CNN
+	1    975  6125
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
