@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -29,5 +29,11 @@ F8 "~PWR" O L 4250 3725 50
 F9 "~RES" O L 4250 5175 50 
 F10 "RES" O L 4250 5400 50 
 F11 "CLK" O L 4250 5050 50 
+$EndSheet
+$Sheet
+S 7050 3650 1675 2750
+U 5D100144
+F0 "Real time clock and expansion bus" 50
+F1 "rtc_and_expansion.sch" 50
 $EndSheet
 $EndSCHEMATC

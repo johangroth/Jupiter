@@ -4,8 +4,8 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
-Title "Glue, control logic and expansion"
+Sheet 2 3
+Title "Glue and power supply"
 Date "2019-06-23"
 Rev "0.1"
 Comp "Linux Grotto"
