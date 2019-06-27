@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -15,32 +15,32 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Grotto:DS1511Y+ U?
+L Grotto:DS1511Y+ U3
 U 1 1 5D100309
 P 2675 2775
-F 0 "U?" H 2850 3525 60  0000 C CNN
+F 0 "U3" H 2850 3525 60  0000 C CNN
 F 1 "DS1511Y+" V 2700 2725 60  0000 C CNN
-F 2 "" H 2425 3225 60  0001 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 2425 3225 60  0001 C CNN
 F 3 "" H 2425 3225 60  0001 C CNN
 	1    2675 2775
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even J?
+L Connector_Generic:Conn_02x20_Odd_Even J2
 U 1 1 5D101C65
 P 6050 3000
-F 0 "J?" H 6200 4025 50  0000 C CNN
+F 0 "J2" H 6200 4025 50  0000 C CNN
 F 1 "Expansion Bus" H 6125 1425 50  0000 C CNN
-F 2 "" H 6050 3000 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 6050 3000 50  0001 C CNN
 F 3 "~" H 6050 3000 50  0001 C CNN
 	1    6050 3000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR013
 U 1 1 5D104029
 P 6100 1925
-F 0 "#PWR?" H 6100 1775 50  0001 C CNN
+F 0 "#PWR013" H 6100 1775 50  0001 C CNN
 F 1 "VCC" H 6117 2098 50  0000 C CNN
 F 2 "" H 6100 1925 50  0001 C CNN
 F 3 "" H 6100 1925 50  0001 C CNN
@@ -48,10 +48,10 @@ F 3 "" H 6100 1925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR014
 U 1 1 5D104306
 P 6100 4175
-F 0 "#PWR?" H 6100 3925 50  0001 C CNN
+F 0 "#PWR014" H 6100 3925 50  0001 C CNN
 F 1 "GND" H 6105 4002 50  0000 C CNN
 F 2 "" H 6100 4175 50  0001 C CNN
 F 3 "" H 6100 4175 50  0001 C CNN
@@ -351,23 +351,23 @@ Wire Bus Line
 Text Label 1800 2100 2    50   ~ 0
 A[0..18]
 Text HLabel 1400 2100 0    50   Output ~ 0
-A[0.18]
+A[0..18]
 $Comp
-L Device:C_Small C?
+L Device:C_Small C5
 U 1 1 5D14A5F3
 P 3050 1750
-F 0 "C?" V 2925 1750 50  0000 C CNN
+F 0 "C5" V 2925 1750 50  0000 C CNN
 F 1 "0.1uF" V 3175 1750 50  0000 C CNN
-F 2 "" H 3050 1750 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm" H 3050 1750 50  0001 C CNN
 F 3 "~" H 3050 1750 50  0001 C CNN
 	1    3050 1750
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR011
 U 1 1 5D14AF4F
 P 2675 4025
-F 0 "#PWR?" H 2675 3775 50  0001 C CNN
+F 0 "#PWR011" H 2675 3775 50  0001 C CNN
 F 1 "GND" H 2680 3852 50  0000 C CNN
 F 2 "" H 2675 4025 50  0001 C CNN
 F 3 "" H 2675 4025 50  0001 C CNN
@@ -375,10 +375,10 @@ F 3 "" H 2675 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR012
 U 1 1 5D14B363
 P 2700 1750
-F 0 "#PWR?" H 2700 1600 50  0001 C CNN
+F 0 "#PWR012" H 2700 1600 50  0001 C CNN
 F 1 "VCC" H 2717 1923 50  0000 C CNN
 F 2 "" H 2700 1750 50  0001 C CNN
 F 3 "" H 2700 1750 50  0001 C CNN
@@ -414,6 +414,36 @@ Wire Bus Line
 	3650 2100 5450 2100
 Wire Bus Line
 	5450 2100 5450 1925
+Connection ~ 5450 2100
+Text HLabel 1900 3250 0    50   Output ~ 0
+~IRQ
+Text HLabel 1900 3375 0    50   Output ~ 0
+~RES
+Text HLabel 3550 3025 2    50   Output ~ 0
+~PWR
+Text HLabel 3550 3150 2    50   Input ~ 0
+~KS
+Text HLabel 1450 3050 0    50   Input ~ 0
+~MWR
+Text HLabel 1475 2925 0    50   Input ~ 0
+~MRD
+Text HLabel 1525 2800 0    50   Input ~ 0
+~RTCSEL
+NoConn ~ 5550 3000
+NoConn ~ 5550 3100
+NoConn ~ 5550 3200
+NoConn ~ 5550 3300
+NoConn ~ 5550 3400
+NoConn ~ 5550 3500
+NoConn ~ 5550 3600
+NoConn ~ 5550 3700
+NoConn ~ 5550 3800
+NoConn ~ 5550 3900
+NoConn ~ 6650 3800
+NoConn ~ 6650 3900
+NoConn ~ 1900 2800
+NoConn ~ 1900 2925
+NoConn ~ 1900 3050
 Wire Bus Line
 	1800 2100 1800 2500
 Wire Bus Line
@@ -422,5 +452,4 @@ Wire Bus Line
 	5450 2100 5450 2800
 Wire Bus Line
 	6750 2100 6750 3600
-Connection ~ 5450 2100
 $EndSCHEMATC
