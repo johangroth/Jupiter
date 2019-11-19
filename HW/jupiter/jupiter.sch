@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:jupiter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title ""
 Date ""
 Rev ""
@@ -110,4 +110,10 @@ Wire Bus Line
 	6725 6225 3075 6225
 Wire Bus Line
 	3075 6100 6725 6100
+$Sheet
+S 6825 1775 1550 1450
+U 5DAC752C
+F0 "DUART and line drivers" 50
+F1 "duart.sch" 50
+$EndSheet
 $EndSCHEMATC

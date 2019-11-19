@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:jupiter-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date ""
 Rev ""
@@ -17,12 +17,12 @@ $EndDescr
 $Comp
 L Grotto:DS1511Y+ U3
 U 1 1 5D100309
-P 2675 2775
-F 0 "U3" H 2850 3525 60  0000 C CNN
-F 1 "DS1511Y+" V 2700 2725 60  0000 C CNN
-F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 2425 3225 60  0001 C CNN
-F 3 "" H 2425 3225 60  0001 C CNN
-	1    2675 2775
+P 5250 5600
+F 0 "U3" H 5425 6350 60  0000 C CNN
+F 1 "DS1511Y+" V 5275 5550 60  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 5000 6050 60  0001 C CNN
+F 3 "" H 5000 6050 60  0001 C CNN
+	1    5250 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -197,25 +197,9 @@ D6
 Text Label 5550 2900 0    50   ~ 0
 D7
 Wire Wire Line
-	3250 2200 3550 2200
+	3300 3250 3600 3250
 Wire Wire Line
-	3250 2300 3550 2300
-Wire Wire Line
-	3250 2400 3550 2400
-Wire Wire Line
-	3250 2500 3550 2500
-Wire Wire Line
-	3250 2600 3550 2600
-Wire Wire Line
-	3250 2700 3550 2700
-Wire Wire Line
-	3250 2800 3550 2800
-Wire Wire Line
-	3250 2900 3550 2900
-Wire Wire Line
-	3250 3025 3550 3025
-Wire Wire Line
-	3250 3150 3550 3150
+	3300 3350 3600 3350
 Wire Wire Line
 	2200 2200 1900 2200
 Wire Wire Line
@@ -229,13 +213,13 @@ Wire Wire Line
 Wire Wire Line
 	2200 2800 1900 2800
 Wire Wire Line
-	2200 2925 1900 2925
+	2200 2900 1900 2900
 Wire Wire Line
-	2200 3050 1900 3050
+	2200 3000 1900 3000
 Wire Wire Line
 	2200 3250 1900 3250
 Wire Wire Line
-	2200 3375 1900 3375
+	2200 3350 1900 3350
 Text Label 3550 2200 2    50   ~ 0
 D0
 Text Label 3550 2300 2    50   ~ 0
@@ -366,50 +350,29 @@ $EndComp
 $Comp
 L power:GND #PWR011
 U 1 1 5D14AF4F
-P 2675 4025
-F 0 "#PWR011" H 2675 3775 50  0001 C CNN
-F 1 "GND" H 2680 3852 50  0000 C CNN
-F 2 "" H 2675 4025 50  0001 C CNN
-F 3 "" H 2675 4025 50  0001 C CNN
-	1    2675 4025
+P 2750 4375
+F 0 "#PWR011" H 2750 4125 50  0001 C CNN
+F 1 "GND" H 2755 4202 50  0000 C CNN
+F 2 "" H 2750 4375 50  0001 C CNN
+F 3 "" H 2750 4375 50  0001 C CNN
+	1    2750 4375
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR012
 U 1 1 5D14B363
-P 2700 1750
-F 0 "#PWR012" H 2700 1600 50  0001 C CNN
-F 1 "VCC" H 2717 1923 50  0000 C CNN
-F 2 "" H 2700 1750 50  0001 C CNN
-F 3 "" H 2700 1750 50  0001 C CNN
-	1    2700 1750
+P 2750 1600
+F 0 "#PWR012" H 2750 1450 50  0001 C CNN
+F 1 "VCC" H 2767 1773 50  0000 C CNN
+F 2 "" H 2750 1600 50  0001 C CNN
+F 3 "" H 2750 1600 50  0001 C CNN
+	1    2750 1600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2700 1900 2700 1750
-Wire Wire Line
-	2700 1750 2950 1750
-Connection ~ 2700 1750
+	2750 1750 2950 1750
 Wire Wire Line
 	3150 1750 3975 1750
-Wire Wire Line
-	3975 1750 3975 3400
-Wire Wire Line
-	3975 4025 2675 4025
-Wire Wire Line
-	2750 3775 2675 3775
-Wire Wire Line
-	2675 4025 2675 3775
-Connection ~ 2675 4025
-Connection ~ 2675 3775
-Wire Wire Line
-	2675 3775 2625 3775
-Wire Wire Line
-	3250 3400 3975 3400
-Connection ~ 3975 3400
-Wire Wire Line
-	3975 3400 3975 4025
-NoConn ~ 3250 3275
 Wire Bus Line
 	3650 2100 5450 2100
 Wire Bus Line
@@ -417,11 +380,11 @@ Wire Bus Line
 Connection ~ 5450 2100
 Text HLabel 1900 3250 0    50   Output ~ 0
 ~IRQ
-Text HLabel 1900 3375 0    50   Output ~ 0
+Text HLabel 1900 3350 0    50   Output ~ 0
 ~RES
-Text HLabel 3550 3025 2    50   Output ~ 0
+Text HLabel 3600 3250 2    50   Output ~ 0
 ~PWR
-Text HLabel 3550 3150 2    50   Input ~ 0
+Text HLabel 3600 3350 2    50   Input ~ 0
 ~KS
 Text HLabel 1450 3050 0    50   Input ~ 0
 ~MWR
@@ -442,8 +405,61 @@ NoConn ~ 5550 3900
 NoConn ~ 6650 3800
 NoConn ~ 6650 3900
 NoConn ~ 1900 2800
-NoConn ~ 1900 2925
-NoConn ~ 1900 3050
+NoConn ~ 1900 2900
+NoConn ~ 1900 3000
+Wire Wire Line
+	3300 2200 3550 2200
+Wire Wire Line
+	3300 2300 3550 2300
+Wire Wire Line
+	3300 2400 3550 2400
+Wire Wire Line
+	3300 2500 3550 2500
+Wire Wire Line
+	3300 2600 3550 2600
+Wire Wire Line
+	3300 2700 3550 2700
+Wire Wire Line
+	3300 2800 3550 2800
+Wire Wire Line
+	3300 2900 3550 2900
+Wire Wire Line
+	3975 1750 3975 3450
+Wire Wire Line
+	3300 3450 3975 3450
+Wire Wire Line
+	2750 1600 2750 1750
+Wire Wire Line
+	2750 1750 2750 1850
+Connection ~ 2750 1750
+$Comp
+L Grotto:DS1501W U?
+U 1 1 5DA42BF4
+P 2750 2750
+F 0 "U?" H 2475 3500 60  0000 C CNN
+F 1 "DS1501W" V 2750 2200 60  0000 C CNN
+F 2 "" H 2450 3200 60  0001 C CNN
+F 3 "" H 2450 3200 60  0001 C CNN
+	1    2750 2750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3975 3450
+Wire Wire Line
+	2650 4200 2650 4300
+Wire Wire Line
+	2650 4300 2750 4300
+Wire Wire Line
+	2850 4300 2850 4200
+Wire Wire Line
+	2750 4300 2750 4375
+Connection ~ 2750 4300
+Wire Wire Line
+	2750 4300 2850 4300
+Wire Wire Line
+	3975 4300 2850 4300
+Wire Wire Line
+	3975 3450 3975 4300
+Connection ~ 2850 4300
 Wire Bus Line
 	1800 2100 1800 2500
 Wire Bus Line
