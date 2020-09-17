@@ -1,0 +1,1049 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+U 1 1 5F627E0E
+P 1475 3225
+F 0 "J?" H 1525 4842 50  0000 C CNN
+F 1 "Slot 1" H 1525 4751 50  0000 C CNN
+F 2 "" H 1475 3225 50  0001 C CNN
+F 3 "~" H 1475 3225 50  0001 C CNN
+	1    1475 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+U 1 1 5F62CA91
+P 5400 3225
+F 0 "J?" H 5450 4842 50  0000 C CNN
+F 1 "Slot 3" H 5450 4751 50  0000 C CNN
+F 2 "" H 5400 3225 50  0001 C CNN
+F 3 "~" H 5400 3225 50  0001 C CNN
+	1    5400 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+U 1 1 5F62F2D5
+P 7300 3225
+F 0 "J?" H 7350 4842 50  0000 C CNN
+F 1 "Slot 4" H 7350 4751 50  0000 C CNN
+F 2 "" H 7300 3225 50  0001 C CNN
+F 3 "~" H 7300 3225 50  0001 C CNN
+	1    7300 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+U 1 1 5F631803
+P 9175 3225
+F 0 "J?" H 9225 4842 50  0000 C CNN
+F 1 "Slot 5" H 9225 4751 50  0000 C CNN
+F 2 "" H 9175 3225 50  0001 C CNN
+F 3 "~" H 9175 3225 50  0001 C CNN
+	1    9175 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F730656
+P 975 4725
+F 0 "#PWR?" H 975 4475 50  0001 C CNN
+F 1 "GND" V 980 4597 50  0000 R CNN
+F 2 "" H 975 4725 50  0001 C CNN
+F 3 "" H 975 4725 50  0001 C CNN
+	1    975  4725
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F747B0B
+P 975 1825
+F 0 "#PWR?" H 975 1675 50  0001 C CNN
+F 1 "+5V" V 990 1953 50  0000 L CNN
+F 2 "" H 975 1825 50  0001 C CNN
+F 3 "" H 975 1825 50  0001 C CNN
+	1    975  1825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1275 1825 975  1825
+Wire Wire Line
+	1275 1925 975  1925
+Wire Wire Line
+	1275 2025 975  2025
+Wire Wire Line
+	1275 2125 975  2125
+Wire Wire Line
+	1275 2225 975  2225
+Wire Wire Line
+	1275 2325 975  2325
+Wire Wire Line
+	1275 2425 975  2425
+Wire Wire Line
+	1275 2525 975  2525
+Wire Wire Line
+	1275 2625 975  2625
+Wire Wire Line
+	1275 2725 975  2725
+Wire Wire Line
+	1275 2825 975  2825
+Wire Wire Line
+	1275 2925 975  2925
+Wire Wire Line
+	1275 3025 975  3025
+Wire Wire Line
+	1275 3125 975  3125
+Wire Wire Line
+	1275 3225 975  3225
+Wire Wire Line
+	1275 3325 975  3325
+Wire Wire Line
+	1275 3425 975  3425
+Wire Wire Line
+	1275 3525 975  3525
+Wire Wire Line
+	1275 3625 975  3625
+Wire Wire Line
+	1275 3725 975  3725
+Wire Wire Line
+	1275 3825 975  3825
+Wire Wire Line
+	1275 3925 975  3925
+Wire Wire Line
+	1275 4025 975  4025
+Wire Wire Line
+	1275 4125 975  4125
+Wire Wire Line
+	1275 4225 975  4225
+Wire Wire Line
+	1275 4325 975  4325
+Wire Wire Line
+	1275 4425 975  4425
+Wire Wire Line
+	1275 4525 975  4525
+Wire Wire Line
+	1275 4625 975  4625
+Wire Wire Line
+	1275 4725 975  4725
+Wire Wire Line
+	1775 1825 2075 1825
+Wire Wire Line
+	1775 1925 2075 1925
+Wire Wire Line
+	1775 2025 2075 2025
+Wire Wire Line
+	1775 2125 2075 2125
+Wire Wire Line
+	1775 2225 2075 2225
+Wire Wire Line
+	1775 2325 2075 2325
+Wire Wire Line
+	1775 2425 2075 2425
+Wire Wire Line
+	1775 2525 2075 2525
+Wire Wire Line
+	1775 2625 2075 2625
+Wire Wire Line
+	1775 2725 2075 2725
+Wire Wire Line
+	1775 2825 2075 2825
+Wire Wire Line
+	1775 2925 2075 2925
+Wire Wire Line
+	1775 3025 2075 3025
+Wire Wire Line
+	1775 3125 2075 3125
+Wire Wire Line
+	1775 3225 2075 3225
+Wire Wire Line
+	1775 3325 2075 3325
+Wire Wire Line
+	1775 3425 2075 3425
+Wire Wire Line
+	1775 3525 2075 3525
+Wire Wire Line
+	1775 3625 2075 3625
+Wire Wire Line
+	1775 3725 2075 3725
+Wire Wire Line
+	1775 3825 2075 3825
+Wire Wire Line
+	1775 3925 2075 3925
+Wire Wire Line
+	1775 4025 2075 4025
+Wire Wire Line
+	1775 4125 2075 4125
+Wire Wire Line
+	1775 4225 2075 4225
+Wire Wire Line
+	1775 4325 2075 4325
+Wire Wire Line
+	1775 4425 2075 4425
+Wire Wire Line
+	1775 4525 2075 4525
+Wire Wire Line
+	1775 4625 2075 4625
+Wire Wire Line
+	1775 4725 2075 4725
+$Comp
+L power:GND #PWR?
+U 1 1 5F82A592
+P 2075 4725
+F 0 "#PWR?" H 2075 4475 50  0001 C CNN
+F 1 "GND" V 2080 4597 50  0000 R CNN
+F 2 "" H 2075 4725 50  0001 C CNN
+F 3 "" H 2075 4725 50  0001 C CNN
+	1    2075 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F82BF3D
+P 975 1925
+F 0 "#PWR?" H 975 1775 50  0001 C CNN
+F 1 "+3.3V" V 990 2053 50  0000 L CNN
+F 2 "" H 975 1925 50  0001 C CNN
+F 3 "" H 975 1925 50  0001 C CNN
+	1    975  1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F830E44
+P 2075 1925
+F 0 "#PWR?" H 2075 1775 50  0001 C CNN
+F 1 "+3.3V" V 2090 2053 50  0000 L CNN
+F 2 "" H 2075 1925 50  0001 C CNN
+F 3 "" H 2075 1925 50  0001 C CNN
+	1    2075 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F82AE30
+P 2075 1825
+F 0 "#PWR?" H 2075 1675 50  0001 C CNN
+F 1 "+5V" V 2090 1953 50  0000 L CNN
+F 2 "" H 2075 1825 50  0001 C CNN
+F 3 "" H 2075 1825 50  0001 C CNN
+	1    2075 1825
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 1825 4900 1825
+Wire Wire Line
+	5200 1925 4900 1925
+Wire Wire Line
+	5200 2025 4900 2025
+Wire Wire Line
+	5200 2125 4900 2125
+Wire Wire Line
+	5200 2225 4900 2225
+Wire Wire Line
+	5200 2325 4900 2325
+Wire Wire Line
+	5200 2425 4900 2425
+Wire Wire Line
+	5200 2525 4900 2525
+Wire Wire Line
+	5200 2625 4900 2625
+Wire Wire Line
+	5200 2725 4900 2725
+Wire Wire Line
+	5200 2825 4900 2825
+Wire Wire Line
+	5200 2925 4900 2925
+Wire Wire Line
+	5200 3025 4900 3025
+Wire Wire Line
+	5200 3125 4900 3125
+Wire Wire Line
+	5200 3225 4900 3225
+Wire Wire Line
+	5200 3325 4900 3325
+Wire Wire Line
+	5200 3425 4900 3425
+Wire Wire Line
+	5200 3525 4900 3525
+Wire Wire Line
+	5200 3625 4900 3625
+Wire Wire Line
+	5200 3725 4900 3725
+Wire Wire Line
+	5200 3825 4900 3825
+Wire Wire Line
+	5200 3925 4900 3925
+Wire Wire Line
+	5200 4025 4900 4025
+Wire Wire Line
+	5200 4125 4900 4125
+Wire Wire Line
+	5200 4225 4900 4225
+Wire Wire Line
+	5200 4325 4900 4325
+Wire Wire Line
+	5200 4425 4900 4425
+Wire Wire Line
+	5200 4525 4900 4525
+Wire Wire Line
+	5200 4625 4900 4625
+Wire Wire Line
+	5200 4725 4900 4725
+Wire Wire Line
+	5700 1825 6000 1825
+Wire Wire Line
+	5700 1925 6000 1925
+Wire Wire Line
+	5700 2025 6000 2025
+Wire Wire Line
+	5700 2125 6000 2125
+Wire Wire Line
+	5700 2225 6000 2225
+Wire Wire Line
+	5700 2325 6000 2325
+Wire Wire Line
+	5700 2425 6000 2425
+Wire Wire Line
+	5700 2525 6000 2525
+Wire Wire Line
+	5700 2625 6000 2625
+Wire Wire Line
+	5700 2725 6000 2725
+Wire Wire Line
+	5700 2825 6000 2825
+Wire Wire Line
+	5700 2925 6000 2925
+Wire Wire Line
+	5700 3025 6000 3025
+Wire Wire Line
+	5700 3125 6000 3125
+Wire Wire Line
+	5700 3225 6000 3225
+Wire Wire Line
+	5700 3325 6000 3325
+Wire Wire Line
+	5700 3425 6000 3425
+Wire Wire Line
+	5700 3525 6000 3525
+Wire Wire Line
+	5700 3625 6000 3625
+Wire Wire Line
+	5700 3725 6000 3725
+Wire Wire Line
+	5700 3825 6000 3825
+Wire Wire Line
+	5700 3925 6000 3925
+Wire Wire Line
+	5700 4025 6000 4025
+Wire Wire Line
+	5700 4125 6000 4125
+Wire Wire Line
+	5700 4225 6000 4225
+Wire Wire Line
+	5700 4325 6000 4325
+Wire Wire Line
+	5700 4425 6000 4425
+Wire Wire Line
+	5700 4525 6000 4525
+Wire Wire Line
+	5700 4625 6000 4625
+Wire Wire Line
+	5700 4725 6000 4725
+Wire Wire Line
+	7100 1825 6800 1825
+Wire Wire Line
+	7100 1925 6800 1925
+Wire Wire Line
+	7100 2025 6800 2025
+Wire Wire Line
+	7100 2125 6800 2125
+Wire Wire Line
+	7100 2225 6800 2225
+Wire Wire Line
+	7100 2325 6800 2325
+Wire Wire Line
+	7100 2425 6800 2425
+Wire Wire Line
+	7100 2525 6800 2525
+Wire Wire Line
+	7100 2625 6800 2625
+Wire Wire Line
+	7100 2725 6800 2725
+Wire Wire Line
+	7100 2825 6800 2825
+Wire Wire Line
+	7100 2925 6800 2925
+Wire Wire Line
+	7100 3025 6800 3025
+Wire Wire Line
+	7100 3125 6800 3125
+Wire Wire Line
+	7100 3225 6800 3225
+Wire Wire Line
+	7100 3325 6800 3325
+Wire Wire Line
+	7100 3425 6800 3425
+Wire Wire Line
+	7100 3525 6800 3525
+Wire Wire Line
+	7100 3625 6800 3625
+Wire Wire Line
+	7100 3725 6800 3725
+Wire Wire Line
+	7100 3825 6800 3825
+Wire Wire Line
+	7100 3925 6800 3925
+Wire Wire Line
+	7100 4025 6800 4025
+Wire Wire Line
+	7100 4125 6800 4125
+Wire Wire Line
+	7100 4225 6800 4225
+Wire Wire Line
+	7100 4325 6800 4325
+Wire Wire Line
+	7100 4425 6800 4425
+Wire Wire Line
+	7100 4525 6800 4525
+Wire Wire Line
+	7100 4625 6800 4625
+Wire Wire Line
+	7100 4725 6800 4725
+Wire Wire Line
+	7600 1925 7900 1925
+Wire Wire Line
+	7600 2025 7900 2025
+Wire Wire Line
+	7600 2125 7900 2125
+Wire Wire Line
+	7600 2225 7900 2225
+Wire Wire Line
+	7600 2325 7900 2325
+Wire Wire Line
+	7600 2425 7900 2425
+Wire Wire Line
+	7600 2525 7900 2525
+Wire Wire Line
+	7600 2625 7900 2625
+Wire Wire Line
+	7600 2725 7900 2725
+Wire Wire Line
+	7600 2825 7900 2825
+Wire Wire Line
+	7600 2925 7900 2925
+Wire Wire Line
+	7600 3025 7900 3025
+Wire Wire Line
+	7600 3125 7900 3125
+Wire Wire Line
+	7600 3225 7900 3225
+Wire Wire Line
+	7600 3325 7900 3325
+Wire Wire Line
+	7600 3425 7900 3425
+Wire Wire Line
+	7600 3525 7900 3525
+Wire Wire Line
+	7600 3625 7900 3625
+Wire Wire Line
+	7600 3725 7900 3725
+Wire Wire Line
+	7600 3825 7900 3825
+Wire Wire Line
+	7600 3925 7900 3925
+Wire Wire Line
+	7600 4025 7900 4025
+Wire Wire Line
+	7600 4125 7900 4125
+Wire Wire Line
+	7600 4225 7900 4225
+Wire Wire Line
+	7600 4325 7900 4325
+Wire Wire Line
+	7600 4425 7900 4425
+Wire Wire Line
+	7600 4525 7900 4525
+Wire Wire Line
+	7600 4625 7900 4625
+Wire Wire Line
+	7600 4725 7900 4725
+Wire Wire Line
+	8975 1825 8675 1825
+Wire Wire Line
+	8975 1925 8675 1925
+Wire Wire Line
+	8975 2025 8675 2025
+Wire Wire Line
+	8975 2125 8675 2125
+Wire Wire Line
+	8975 2225 8675 2225
+Wire Wire Line
+	8975 2325 8675 2325
+Wire Wire Line
+	8975 2425 8675 2425
+Wire Wire Line
+	8975 2525 8675 2525
+Wire Wire Line
+	8975 2625 8675 2625
+Wire Wire Line
+	8975 2725 8675 2725
+Wire Wire Line
+	8975 2825 8675 2825
+Wire Wire Line
+	8975 2925 8675 2925
+Wire Wire Line
+	8975 3025 8675 3025
+Wire Wire Line
+	8975 3125 8675 3125
+Wire Wire Line
+	8975 3225 8675 3225
+Wire Wire Line
+	8975 3325 8675 3325
+Wire Wire Line
+	8975 3425 8675 3425
+Wire Wire Line
+	8975 3525 8675 3525
+Wire Wire Line
+	8975 3625 8675 3625
+Wire Wire Line
+	8975 3725 8675 3725
+Wire Wire Line
+	8975 3825 8675 3825
+Wire Wire Line
+	8975 3925 8675 3925
+Wire Wire Line
+	8975 4025 8675 4025
+Wire Wire Line
+	8975 4125 8675 4125
+Wire Wire Line
+	8975 4225 8675 4225
+Wire Wire Line
+	8975 4325 8675 4325
+Wire Wire Line
+	8975 4425 8675 4425
+Wire Wire Line
+	8975 4525 8675 4525
+Wire Wire Line
+	8975 4625 8675 4625
+Wire Wire Line
+	8975 4725 8675 4725
+Wire Wire Line
+	9475 1825 9775 1825
+Wire Wire Line
+	9475 1925 9775 1925
+Wire Wire Line
+	9475 2025 9775 2025
+Wire Wire Line
+	9475 2125 9775 2125
+Wire Wire Line
+	9475 2225 9775 2225
+Wire Wire Line
+	9475 2325 9775 2325
+Wire Wire Line
+	9475 2425 9775 2425
+Wire Wire Line
+	9475 2525 9775 2525
+Wire Wire Line
+	9475 2625 9775 2625
+Wire Wire Line
+	9475 2725 9775 2725
+Wire Wire Line
+	9475 2825 9775 2825
+Wire Wire Line
+	9475 2925 9775 2925
+Wire Wire Line
+	9475 3025 9775 3025
+Wire Wire Line
+	9475 3125 9775 3125
+Wire Wire Line
+	9475 3225 9775 3225
+Wire Wire Line
+	9475 3325 9775 3325
+Wire Wire Line
+	9475 3425 9775 3425
+Wire Wire Line
+	9475 3525 9775 3525
+Wire Wire Line
+	9475 3625 9775 3625
+Wire Wire Line
+	9475 3725 9775 3725
+Wire Wire Line
+	9475 3825 9775 3825
+Wire Wire Line
+	9475 3925 9775 3925
+Wire Wire Line
+	9475 4025 9775 4025
+Wire Wire Line
+	9475 4125 9775 4125
+Wire Wire Line
+	9475 4225 9775 4225
+Wire Wire Line
+	9475 4325 9775 4325
+Wire Wire Line
+	9475 4425 9775 4425
+Wire Wire Line
+	9475 4525 9775 4525
+Wire Wire Line
+	9475 4625 9775 4625
+Wire Wire Line
+	9475 4725 9775 4725
+$Comp
+L power:+5V #PWR?
+U 1 1 605AFB08
+P 4900 1825
+F 0 "#PWR?" H 4900 1675 50  0001 C CNN
+F 1 "+5V" V 4915 1953 50  0000 L CNN
+F 2 "" H 4900 1825 50  0001 C CNN
+F 3 "" H 4900 1825 50  0001 C CNN
+	1    4900 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 605A8F96
+P 3000 1825
+F 0 "#PWR?" H 3000 1675 50  0001 C CNN
+F 1 "+5V" V 3015 1953 50  0000 L CNN
+F 2 "" H 3000 1825 50  0001 C CNN
+F 3 "" H 3000 1825 50  0001 C CNN
+	1    3000 1825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3800 4725 4100 4725
+Wire Wire Line
+	3800 4625 4100 4625
+Wire Wire Line
+	3800 4525 4100 4525
+Wire Wire Line
+	3800 4425 4100 4425
+Wire Wire Line
+	3800 4325 4100 4325
+Wire Wire Line
+	3800 4225 4100 4225
+Wire Wire Line
+	3800 4125 4100 4125
+Wire Wire Line
+	3800 4025 4100 4025
+Wire Wire Line
+	3800 3925 4100 3925
+Wire Wire Line
+	3800 3825 4100 3825
+Wire Wire Line
+	3800 3725 4100 3725
+Wire Wire Line
+	3800 3625 4100 3625
+Wire Wire Line
+	3800 3525 4100 3525
+Wire Wire Line
+	3800 3425 4100 3425
+Wire Wire Line
+	3800 3325 4100 3325
+Wire Wire Line
+	3800 3225 4100 3225
+Wire Wire Line
+	3800 3125 4100 3125
+Wire Wire Line
+	3800 3025 4100 3025
+Wire Wire Line
+	3800 2925 4100 2925
+Wire Wire Line
+	3800 2825 4100 2825
+Wire Wire Line
+	3800 2725 4100 2725
+Wire Wire Line
+	3800 2625 4100 2625
+Wire Wire Line
+	3800 2525 4100 2525
+Wire Wire Line
+	3800 2425 4100 2425
+Wire Wire Line
+	3800 2325 4100 2325
+Wire Wire Line
+	3800 2225 4100 2225
+Wire Wire Line
+	3800 2125 4100 2125
+Wire Wire Line
+	3800 2025 4100 2025
+Wire Wire Line
+	3800 1925 4100 1925
+Wire Wire Line
+	3800 1825 4100 1825
+Wire Wire Line
+	3300 4725 3000 4725
+Wire Wire Line
+	3300 4625 3000 4625
+Wire Wire Line
+	3300 4525 3000 4525
+Wire Wire Line
+	3300 4425 3000 4425
+Wire Wire Line
+	3300 4325 3000 4325
+Wire Wire Line
+	3300 4225 3000 4225
+Wire Wire Line
+	3300 4125 3000 4125
+Wire Wire Line
+	3300 4025 3000 4025
+Wire Wire Line
+	3300 3925 3000 3925
+Wire Wire Line
+	3300 3825 3000 3825
+Wire Wire Line
+	3300 3725 3000 3725
+Wire Wire Line
+	3300 3625 3000 3625
+Wire Wire Line
+	3300 3525 3000 3525
+Wire Wire Line
+	3300 3425 3000 3425
+Wire Wire Line
+	3300 3325 3000 3325
+Wire Wire Line
+	3300 3225 3000 3225
+Wire Wire Line
+	3300 3125 3000 3125
+Wire Wire Line
+	3300 3025 3000 3025
+Wire Wire Line
+	3300 2925 3000 2925
+Wire Wire Line
+	3300 2825 3000 2825
+Wire Wire Line
+	3300 2725 3000 2725
+Wire Wire Line
+	3300 2625 3000 2625
+Wire Wire Line
+	3300 2525 3000 2525
+Wire Wire Line
+	3300 2425 3000 2425
+Wire Wire Line
+	3300 2325 3000 2325
+Wire Wire Line
+	3300 2225 3000 2225
+Wire Wire Line
+	3300 2125 3000 2125
+Wire Wire Line
+	3300 2025 3000 2025
+Wire Wire Line
+	3300 1925 3000 1925
+Wire Wire Line
+	3300 1825 3000 1825
+$Comp
+L Connector_Generic:Conn_02x30_Counter_Clockwise J?
+U 1 1 5F629A5A
+P 3500 3225
+F 0 "J?" H 3550 4842 50  0000 C CNN
+F 1 "Slot 2" H 3550 4751 50  0000 C CNN
+F 2 "" H 3500 3225 50  0001 C CNN
+F 3 "~" H 3500 3225 50  0001 C CNN
+	1    3500 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6064BA91
+P 4100 1825
+F 0 "#PWR?" H 4100 1675 50  0001 C CNN
+F 1 "+5V" V 4115 1953 50  0000 L CNN
+F 2 "" H 4100 1825 50  0001 C CNN
+F 3 "" H 4100 1825 50  0001 C CNN
+	1    4100 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606DD547
+P 6800 1825
+F 0 "#PWR?" H 6800 1675 50  0001 C CNN
+F 1 "+5V" V 6815 1953 50  0000 L CNN
+F 2 "" H 6800 1825 50  0001 C CNN
+F 3 "" H 6800 1825 50  0001 C CNN
+	1    6800 1825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6075CE15
+P 6000 1825
+F 0 "#PWR?" H 6000 1675 50  0001 C CNN
+F 1 "+5V" V 6015 1953 50  0000 L CNN
+F 2 "" H 6000 1825 50  0001 C CNN
+F 3 "" H 6000 1825 50  0001 C CNN
+	1    6000 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 607B9ACF
+P 8675 1825
+F 0 "#PWR?" H 8675 1675 50  0001 C CNN
+F 1 "+5V" V 8690 1953 50  0000 L CNN
+F 2 "" H 8675 1825 50  0001 C CNN
+F 3 "" H 8675 1825 50  0001 C CNN
+	1    8675 1825
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 1825 7900 1825
+$Comp
+L power:+5V #PWR?
+U 1 1 60815070
+P 7900 1825
+F 0 "#PWR?" H 7900 1675 50  0001 C CNN
+F 1 "+5V" V 7915 1953 50  0000 L CNN
+F 2 "" H 7900 1825 50  0001 C CNN
+F 3 "" H 7900 1825 50  0001 C CNN
+	1    7900 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 608158DC
+P 9775 1825
+F 0 "#PWR?" H 9775 1675 50  0001 C CNN
+F 1 "+5V" V 9790 1953 50  0000 L CNN
+F 2 "" H 9775 1825 50  0001 C CNN
+F 3 "" H 9775 1825 50  0001 C CNN
+	1    9775 1825
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60816134
+P 4100 1925
+F 0 "#PWR?" H 4100 1775 50  0001 C CNN
+F 1 "+3.3V" V 4115 2053 50  0000 L CNN
+F 2 "" H 4100 1925 50  0001 C CNN
+F 3 "" H 4100 1925 50  0001 C CNN
+	1    4100 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60816A03
+P 6000 1925
+F 0 "#PWR?" H 6000 1775 50  0001 C CNN
+F 1 "+3.3V" V 6015 2053 50  0000 L CNN
+F 2 "" H 6000 1925 50  0001 C CNN
+F 3 "" H 6000 1925 50  0001 C CNN
+	1    6000 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 608173A2
+P 7900 1925
+F 0 "#PWR?" H 7900 1775 50  0001 C CNN
+F 1 "+3.3V" V 7915 2053 50  0000 L CNN
+F 2 "" H 7900 1925 50  0001 C CNN
+F 3 "" H 7900 1925 50  0001 C CNN
+	1    7900 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60817F5D
+P 9775 1925
+F 0 "#PWR?" H 9775 1775 50  0001 C CNN
+F 1 "+3.3V" V 9790 2053 50  0000 L CNN
+F 2 "" H 9775 1925 50  0001 C CNN
+F 3 "" H 9775 1925 50  0001 C CNN
+	1    9775 1925
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60820BDD
+P 3000 1925
+F 0 "#PWR?" H 3000 1775 50  0001 C CNN
+F 1 "+3.3V" V 3015 2053 50  0000 L CNN
+F 2 "" H 3000 1925 50  0001 C CNN
+F 3 "" H 3000 1925 50  0001 C CNN
+	1    3000 1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60821BA9
+P 4900 1925
+F 0 "#PWR?" H 4900 1775 50  0001 C CNN
+F 1 "+3.3V" V 4915 2053 50  0000 L CNN
+F 2 "" H 4900 1925 50  0001 C CNN
+F 3 "" H 4900 1925 50  0001 C CNN
+	1    4900 1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60822CEB
+P 6800 1925
+F 0 "#PWR?" H 6800 1775 50  0001 C CNN
+F 1 "+3.3V" V 6815 2053 50  0000 L CNN
+F 2 "" H 6800 1925 50  0001 C CNN
+F 3 "" H 6800 1925 50  0001 C CNN
+	1    6800 1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 608236F3
+P 8675 1925
+F 0 "#PWR?" H 8675 1775 50  0001 C CNN
+F 1 "+3.3V" V 8690 2053 50  0000 L CNN
+F 2 "" H 8675 1925 50  0001 C CNN
+F 3 "" H 8675 1925 50  0001 C CNN
+	1    8675 1925
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A45087
+P 4100 4725
+F 0 "#PWR?" H 4100 4475 50  0001 C CNN
+F 1 "GND" V 4105 4597 50  0000 R CNN
+F 2 "" H 4100 4725 50  0001 C CNN
+F 3 "" H 4100 4725 50  0001 C CNN
+	1    4100 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A459A3
+P 6000 4725
+F 0 "#PWR?" H 6000 4475 50  0001 C CNN
+F 1 "GND" V 6005 4597 50  0000 R CNN
+F 2 "" H 6000 4725 50  0001 C CNN
+F 3 "" H 6000 4725 50  0001 C CNN
+	1    6000 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A46428
+P 7900 4725
+F 0 "#PWR?" H 7900 4475 50  0001 C CNN
+F 1 "GND" V 7905 4597 50  0000 R CNN
+F 2 "" H 7900 4725 50  0001 C CNN
+F 3 "" H 7900 4725 50  0001 C CNN
+	1    7900 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A46E44
+P 9775 4725
+F 0 "#PWR?" H 9775 4475 50  0001 C CNN
+F 1 "GND" V 9780 4597 50  0000 R CNN
+F 2 "" H 9775 4725 50  0001 C CNN
+F 3 "" H 9775 4725 50  0001 C CNN
+	1    9775 4725
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A477EF
+P 3000 4725
+F 0 "#PWR?" H 3000 4475 50  0001 C CNN
+F 1 "GND" V 3005 4597 50  0000 R CNN
+F 2 "" H 3000 4725 50  0001 C CNN
+F 3 "" H 3000 4725 50  0001 C CNN
+	1    3000 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A48264
+P 4900 4725
+F 0 "#PWR?" H 4900 4475 50  0001 C CNN
+F 1 "GND" V 4905 4597 50  0000 R CNN
+F 2 "" H 4900 4725 50  0001 C CNN
+F 3 "" H 4900 4725 50  0001 C CNN
+	1    4900 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A48C18
+P 6800 4725
+F 0 "#PWR?" H 6800 4475 50  0001 C CNN
+F 1 "GND" V 6805 4597 50  0000 R CNN
+F 2 "" H 6800 4725 50  0001 C CNN
+F 3 "" H 6800 4725 50  0001 C CNN
+	1    6800 4725
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A49643
+P 8675 4725
+F 0 "#PWR?" H 8675 4475 50  0001 C CNN
+F 1 "GND" V 8680 4597 50  0000 R CNN
+F 2 "" H 8675 4725 50  0001 C CNN
+F 3 "" H 8675 4725 50  0001 C CNN
+	1    8675 4725
+	0    1    1    0   
+$EndComp
+Text Label 975  2025 0    50   ~ 0
+A0
+Text Label 975  2125 0    50   ~ 0
+A1
+Text Label 975  2225 0    50   ~ 0
+A2
+Text Label 975  2325 0    50   ~ 0
+A3
+Text Label 975  2425 0    50   ~ 0
+A4
+Text Label 975  2525 0    50   ~ 0
+A5
+Text Label 975  2625 0    50   ~ 0
+A6
+Text Label 975  2725 0    50   ~ 0
+A7
+Text Label 975  2825 0    50   ~ 0
+A8
+Text Label 975  2925 0    50   ~ 0
+A9
+Text Label 975  3025 0    50   ~ 0
+A10
+Text Label 975  3125 0    50   ~ 0
+A11
+Text Label 975  3225 0    50   ~ 0
+A12
+Text Label 975  3325 0    50   ~ 0
+A13
+Text Label 975  3425 0    50   ~ 0
+A14
+Text Label 975  3525 0    50   ~ 0
+A15
+Text Label 975  3625 0    50   ~ 0
+D0
+Text Label 975  3725 0    50   ~ 0
+D1
+Text Label 975  3825 0    50   ~ 0
+D2
+Text Label 975  3925 0    50   ~ 0
+D3
+Text Label 975  4025 0    50   ~ 0
+D4
+Text Label 975  4125 0    50   ~ 0
+D5
+Text Label 975  4225 0    50   ~ 0
+D6
+Text Label 975  4325 0    50   ~ 0
+D7
+$EndSCHEMATC

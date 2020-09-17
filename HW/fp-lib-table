@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Grotto)(type KiCad)(uri /home/jgroth/dev/repos_github/kicad/footprints/grotto.pretty)(options "")(descr ""))
+)

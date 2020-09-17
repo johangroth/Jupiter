@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Grotto)(type Legacy)(uri /home/jgroth/Documents/dev/github/kicad/symbols/grotto.lib)(options "")(descr ""))
+  (lib (name jupiter-rescue)(type Legacy)(uri ${KIPRJMOD}/jupiter-rescue.lib)(options "")(descr ""))
+)
